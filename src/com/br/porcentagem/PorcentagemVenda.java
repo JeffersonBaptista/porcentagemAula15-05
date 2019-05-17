@@ -17,7 +17,7 @@ public class PorcentagemVenda {
 		
 		id = s.next();
 		
-		System.out.println("informe o produto vendida");
+		System.out.println("informe o produto vendido");
 		
 		peca = s.next();
 		
@@ -31,7 +31,7 @@ public class PorcentagemVenda {
 		
 		total = valor * quant;
 		
-		comissao = (total * 0.5)/100;
+		comissao = (total * 5)/100;
 		
 		System.out.println("total vendido pelo " + id +": " + total);
 		System.out.println("total de comissão a receber:" + comissao);
